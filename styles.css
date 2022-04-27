@@ -6,21 +6,32 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+html, body{
+ width: 100%;
+ height: 100%;
+}
 
 
 body{
-    background-color: #3498DB;
+     /* background: #3498DB; */
+     background:url("wolf-gd7634848c_1920.jpg") no-repeat 50% 50%;
+     
 }
 
 a,li{
     font-family: 'Roboto', sans-serif;
+    list-style: none;
+    padding-right:15px;
 }
 
 .logo-header img{
     width: 100px;
+    border: solid;
+    border-radius: 50px;
+    
 }
 header{
-    background-color: #F4F6F7    ;
+    background-color:#fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,7 +53,7 @@ header{
     
 }
  .nav-menu li:last-child{
-     background-color: #85C1E9 ;
+     /* background-color: #85C1E9 ; */
      border: 2px ;
      padding: 4px 12px;
      border-radius:.2rem ;
@@ -50,3 +61,39 @@ header{
      
      
  }
+.header-cont{
+    max-width: 600px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-cont h2{
+    font-size: 60px;
+    color: gray;
+    text-transform: uppercase;
+    
+}
+.header-cont p{
+    font-size: 20px;
+    color: gray;
+   
+}
+
+.header-cont a{
+    display: inline-block;
+    margin-top: 25px;
+    background: #fff;
+    padding: 10px 40px;
+    color: black;
+    border-radius: 40px;
+}
+
+.header-cont a:hover{
+    background:#BAD0DE;
+}
+
