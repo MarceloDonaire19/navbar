@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
 *{
     padding: 0;
@@ -22,6 +23,7 @@ a,li{
     font-family: 'Roboto', sans-serif;
     list-style: none;
     padding-right:15px;
+    font-size: 20px;
 }
 
 .logo-header img{
@@ -70,6 +72,7 @@ header{
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
 .header-cont h2{
@@ -78,15 +81,16 @@ header{
     text-transform: uppercase;
     
 }
-.header-cont p{
+.header-cont .parrafo{
     font-size: 20px;
     color: gray;
+    text-align:center;
    
 }
 
 .header-cont a{
     display: inline-block;
-    margin-top: 25px;
+    margin-top: 150px;
     background: #fff;
     padding: 10px 40px;
     color: black;
@@ -97,3 +101,71 @@ header{
     background:#BAD0DE;
 }
 
+
+
+aside h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color:gray;
+    font-family: 'Merriweather', serif;
+}
+aside p{
+    font-size: 25px;
+    text-align: center;
+    padding: 6px;
+}
+
+.imagenes  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DCDDDF;
+    cursor:pointer;
+    padding: 100px;
+  
+}
+  div {
+      display: flex;
+      justify-content:space-between;
+      width: 300px;
+      padding: 20px;
+  }
+   img{
+      border-radius: 30px;
+      
+      
+  }
+
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background: #B8C3CB;
+    padding: 50px;
+    
+}
+
+footer  .fa-whatsapp{
+    color: green;
+    font-size: 30px;
+}
+
+footer  .fa-instagram{
+    color: purple;
+    font-size: 30px;
+    
+}
+
+footer  .fa-facebook{
+    color: blue;
+    font-size: 30px;
+    
+}
+footer p{
+    font-size: 20px;
+}
